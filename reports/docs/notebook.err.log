@@ -1,0 +1,30 @@
+Traceback (most recent call last):
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 1305, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/jupyter_core/utils/__init__.py", line 166, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 705, in async_execute
+    await self.async_execute_cell(
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 1058, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/marit/anaconda3/envs/jupyterbook/lib/python3.11/site-packages/nbclient/client.py", line 914, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+Ieder jaar, zo halverwege mei, verbindt het Eurovisie Songfestival de muziekliefhebbers over heel Europa. Het festival werd voor het eerst gehouden in 1956 met slechts zeven landen. Vandaag de dag doen er rond de veertig landen mee. Ieder land treedt op met een zelfgeschreven nummer, waarna er via stemming van een jury en televoting een winnaar wordt bepaald. Ieder land reikt punten uit waarbij 50 procent via televoting en 50 procent via een jury bepaald worden. Tot 2016 gaf een land 1 tot en met 8, 10 en 12 punten aan andere landen. Vanaf 2016 werden dit twee sets, één namens de jury en één namens televoting. Onderstaand figuur geeft de punten weer die de landen gehaald hebben over de jaren 
+------------------
+
+
+[0;36m  Cell [0;32mIn[1], line 1[0;36m[0m
+[0;31m    Ieder jaar, zo halverwege mei, verbindt het Eurovisie Songfestival de muziekliefhebbers over heel Europa. Het festival werd voor het eerst gehouden in 1956 met slechts zeven landen. Vandaag de dag doen er rond de veertig landen mee. Ieder land treedt op met een zelfgeschreven nummer, waarna er via stemming van een jury en televoting een winnaar wordt bepaald. Ieder land reikt punten uit waarbij 50 procent via televoting en 50 procent via een jury bepaald worden. Tot 2016 gaf een land 1 tot en met 8, 10 en 12 punten aan andere landen. Vanaf 2016 werden dit twee sets, één namens de jury en één namens televoting. Onderstaand figuur geeft de punten weer die de landen gehaald hebben over de jaren[0m
+[0m          ^[0m
+[0;31mSyntaxError[0m[0;31m:[0m invalid syntax
+
+
