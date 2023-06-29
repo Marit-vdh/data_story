@@ -2,7 +2,7 @@
 # Learn more at https://jupyterbook.org/customize/config.html
 
 title: Stemmen voor alles behalve de Stem 
-author: Bèta Gamma KI Informatie Visualisatie groep L1
+author: Informatie Visualisatie groep L1
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
