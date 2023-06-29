@@ -32,8 +32,8 @@ zmax = 12
 average_points = euro_df.groupby(['From country', 'To country'])['Points'].mean().reset_index()
 
 
-# app = dash.Dash(__name__)
-app = JupyterDash(__name__)
+app = dash.Dash(__name__)
+# app = JupyterDash(__name__)
 
 app.layout = html.Div(id = 'parent', children = [
     html.H1(id = 'H1',
@@ -83,8 +83,9 @@ def graph_update(dropdown_value):
     )
 
     return hittekaart_punten
+
 if __name__ == '__main__':
-    app.run_server()
+    app.run_server(use_reloader=True)
 
 ------------------
 
