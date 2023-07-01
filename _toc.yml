@@ -5,7 +5,9 @@ format: jb-book
 root: docs/home
 chapters:
 - file: docs/notebook
+- file: docs/reflectie
 - file: docs/databases
 - file: docs/studenten
 - file: docs/referenties
+- file: docs/chatgpt
 
